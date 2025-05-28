@@ -62,7 +62,7 @@ Exp     | use BPE | vocabulary size | BLEU
 
 ### Comments:
 - The baseline word level model performed the worst as visible in the table. There is a heavy use of unknowns, since the vocabulary is very limited and thus the translations are not very feasible.
-- The model with BPE 2k use increased the BLEU score to 6, showing a increase in vocabulary through subword-level modeling. However, there is still a lot of unknowns, since the vocabulary cut-off was set to 2,000.
+- The model, with BPE 2k use, increased the BLEU score to 6, showing an increase in vocabulary through subword-level modeling. However, there is still a lot of unknowns, since the vocabulary cut-off was set to 2,000.
 - Finally, the model with BPE and a vocabulary threshold of 4,000, performed the best with a BLEU score of 7.4. In the translations, the mitigation of unknowns is further visible. This leads to a better token alignment and allows for smoother translations.
 
 ## Task 2
