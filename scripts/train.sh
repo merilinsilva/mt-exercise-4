@@ -16,7 +16,7 @@ SECONDS=0
 
 logs=$base/logs
 
-model_name=?
+model_name=word_level_model
 
 mkdir -p $logs
 
