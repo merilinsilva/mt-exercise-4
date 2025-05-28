@@ -14,7 +14,7 @@
 - Run `./scripts/train.sh`, but change the model_name accordingly on line 19 beforehand.
 
 ### Evaluation
-- Change the model name on line 16 and run `./scripts/evaluate.sh` to get the BLEU scores saved under the folder `bleu_scores`
+- Change the model name on line 26 and run `./scripts/evaluate.sh` to get the BLEU scores saved under the folder `bleu_scores`
 
 ### Create Table
 - To create the final table please run `./scripts/create_table.sh` and it will be printed on your terminal.
