@@ -74,7 +74,7 @@ Exp     | use BPE | vocabulary size | BLEU
 - Therefore, starting from beam size 3, the scores plateau, since these do not provide better translations. We assume that it is due to over-searching or redundancy.
 
 ### Time vs. Beam Size
-- There is a high second count at beam size 1, since model loading, tokenizer setuo and checkpoint loading are measured too for the first beam. Technically, beam size 1 should run the fastest, since it is the equivalent to doing **greedy decoding**. The other beam sizes behave as expected, the bigger the beam size, the longer it will take. It scales non-linearly (nearly 6x).
+- There is a high time count at beam size 1, since model loading, tokenizer setup and checkpoint loading are measured too for the first beam. Technically, beam size 1 should run the fastest, since it is the equivalent to doing **greedy decoding**. The other beam sizes behave as expected, the bigger the beam size, the longer it will take. It scales non-linearly (nearly 6x).
 
 ### Beam Size choice
 - If regarding the time and the scores, beam size 3 seems to be the best choice.
