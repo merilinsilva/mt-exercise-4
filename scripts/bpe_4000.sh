@@ -29,7 +29,7 @@ for split in train dev test; do
   done
 done
 
-# 3. Copy to final JoeyNMT data folder
+# 3. Copy to final data folder
 for split in train dev test; do
   for lang in nl de; do
     cp $bpe_4000/$split.bpe.$lang $output_data/$split.$lang
